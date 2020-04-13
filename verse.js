@@ -8,9 +8,10 @@ let verseRef = [
   'ephesians1:3',
   'matthew28:19',
 ]
+let r = Math.floor(Math.random() * verseRef.length)
 
 axios
-  .get(`${url}${verseRef[3]}`)
+  .get(`${url}${verseRef[r]}`)
   .then((res) => {
     setTimeout(function () {
       showVerse(res)
