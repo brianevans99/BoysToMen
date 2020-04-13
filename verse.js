@@ -1,18 +1,27 @@
-const axios = require('axios')
 let url = 'https://bible-api.com/'
-// let url = 'https://jsonplaceholder.typicode.com/todos/1'
-let verse = 'john3:16'
+let verseRef = [
+  'philippians4:13',
+  '1timothy4:12',
+  'john+3:16-17',
+  'romans8:28',
+  'colossians3:12',
+  'ephesians1:3',
+  'matthew28:19',
+]
 
-const x = axios
-  .get(`${url}${verse}`)
+axios
+  .get(`${url}${verseRef[3]}`)
   .then((res) => {
-    const reference = res.data.reference
-    const text = res.data.text
-    return {
-      reference,
-      text,
-    }
+    setTimeout(function () {
+      showVerse(res)
+    }, 10)
   })
   .catch((err) => console.log(err))
 
-module.exports = x
+function showVerse(res) {
+  document.getElementById('verse').innerHTML = `
+    <span class="text-muted">
+    <h6>"${res.data.text}"</h6>
+    <p>~${res.data.reference}</p></span>
+    `
+}

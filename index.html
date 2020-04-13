@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant:600&display=swap" rel="stylesheet">
+
     <!-- ***Bootstrap CSS*** -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -17,8 +20,7 @@
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="#">
-            <img src="assets/images/cross_navbar.png" width="30" height="30" class="d-inline-block align-top" alt="">Boys To Men
-          </a>
+            <img src="assets/images/cross_navbar.png" width="30" height="30" class="d-inline-block align-top" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,7 +30,7 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="assets/documents/Boys to Men flier 2018 2019.pdf" target="_blank">Afterschool Program</a>
+            <a class="nav-link" href="assets/documents/Boys_To_Men_flier_2019-2020.pdf" target="_blank">Afterschool Program</a>
           </li>
           <!--<li class="nav-item">
             <a class="nav-link" href="#" target="_blank">Newsletters</a>
@@ -36,6 +38,7 @@
           <!--<li class="nav-item">
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>-->
+      
         </ul>
       </div>
     </nav>
@@ -43,8 +46,16 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-4">Boys To Men</h1>
-      <p class="lead">Encouraging DeKalb youth to be Men of God...</p>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="title text-uppercase">Boys To Men</div>
+          <p class="lead">Guiding teenage boys in DeKalb County to be men of God...</p>
+        </div>
+        <div class="col-lg-6"><div id='verse'></div>
+        </div>
+      </div>
+  
+      <!--Bible verse API-->
 
 
   <!--About BTM banner-->    
@@ -130,7 +141,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     
     <!-- ***JavaScript file link*** -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+    <script src="verse.js"></script>
 
   </body>
 </html>

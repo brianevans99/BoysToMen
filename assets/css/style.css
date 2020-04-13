@@ -1,9 +1,14 @@
-body {
-    background-color:#808080;
-
+.jumbotron {
+    background-color:#fff5ee;
+}
+.title {
+    font-size: 4.0em;
+    font-family: 'Cormorant Infant', serif;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
+
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size:3.0em;
+    }
+}
