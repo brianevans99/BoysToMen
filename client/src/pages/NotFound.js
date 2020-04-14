@@ -9,7 +9,7 @@ export class NotFound extends Component {
   render() {
     return (
       <Container fluid>
-        <Row className='d-flex justify-content-center'>
+        <Row className='justify-content-center'>
           <Col xs={3} />
           <Col xs={6}>
             <Card border='danger' style={{ width: '18rem' }}>
