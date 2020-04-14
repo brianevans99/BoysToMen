@@ -8,17 +8,19 @@ import notfound from '../assets/images/notfound.png'
 export class NotFound extends Component {
   render() {
     return (
-      <Container>
-        <Row className='justify-content-center'>
-          <Col>
-            <Card className='text-center' style={{ width: '18rem' }}>
+      <Container fluid>
+        <Row className='d-flex justify-content-center'>
+          <Col xs={3} />
+          <Col xs={6}>
+            <Card border='danger' style={{ width: '18rem' }}>
               <Card.Img src={notfound} />
-              <Card.Body>
+              <Card.Body className='text-center'>
                 <Card.Title>404</Card.Title>
                 <Card.Subtitle>Page not found</Card.Subtitle>
               </Card.Body>
             </Card>
           </Col>
+          <Col xs={3} />
         </Row>
       </Container>
     )
