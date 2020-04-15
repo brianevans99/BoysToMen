@@ -1,14 +1,13 @@
 .jumbotron {
-    background-color:#fff5ee;
+  background-color: #fff5ee;
 }
 .title {
-    font-size: 4.0em;
-    font-family: 'Cormorant Infant', serif;
+  font-size: 4em;
+  font-family: 'Cormorant Infant', serif;
 }
 
-
-@media only screen and (max-width: 500px) {
-    .title {
-        font-size:3.0em;
-    }
+@media only screen and (max-width: 480) {
+  .title {
+    font-size: 3em;
+  }
 }

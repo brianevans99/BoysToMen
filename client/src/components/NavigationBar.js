@@ -13,13 +13,19 @@ const Styles = styled.div`
       color: #000;
     }
   }
+
+  @media only screen and (max-width: 992px) {
+    * {
+      text-align: center;
+    }
+  }
 `
 
 const NavigationBar = () => (
   <Styles>
     <Navbar expand='lg'>
       <Navbar.Brand href='/'>
-        <img src={cross} alt='Boys to Men' height='70' />
+        <img src={cross} alt='Boys to Men' height='50' />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls='basic-navbar-nav' />
       <Navbar.Collapse id='basic-navbar-nav'>

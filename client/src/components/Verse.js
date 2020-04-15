@@ -13,8 +13,8 @@ const verseRef = [
   'matthew28:19',
 ]
 const r = Math.floor(Math.random() * verseRef.length)
-const backupVerse = 'Jesus wept.'
-const backupRef = 'John 11:35'
+const backupVerse = 'I can do all things through Christ, who strengthens me.'
+const backupRef = 'Philippians 4:13'
 
 const Verse = () => (
   <Request
@@ -27,7 +27,7 @@ const Verse = () => (
     {({ loading, response, error }) => (
       <Fragment>
         {loading && (
-          <span>
+          <span className='d-flex justify-content-center'>
             <img src={spinner} height='80px' alt='loading' />
           </span>
         )}
