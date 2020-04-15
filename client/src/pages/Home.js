@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Carousel } from 'react-bootstrap'
 import Verse from '../components/Verse'
+import CarouselDiv from '../components/CarouselDiv'
 
 export class Home extends Component {
   render() {
@@ -13,6 +14,11 @@ export class Home extends Component {
           </Col>
           <Col lg={6}>
             <Verse />
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={true}>
+            <CarouselDiv />
           </Col>
         </Row>
       </Container>
