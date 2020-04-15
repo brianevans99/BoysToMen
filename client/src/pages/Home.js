@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Verse from '../components/Verse'
 import CarouselDiv from '../components/CarouselDiv'
+import InfoCard from '../components/InfoCard'
 
 export class Home extends Component {
   render() {
@@ -21,6 +22,7 @@ export class Home extends Component {
             <CarouselDiv />
           </Col>
         </Row>
+        <InfoCard />
       </Container>
     )
   }
