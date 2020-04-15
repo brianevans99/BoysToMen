@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Row, Col, Carousel } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Verse from '../components/Verse'
 import CarouselDiv from '../components/CarouselDiv'
 

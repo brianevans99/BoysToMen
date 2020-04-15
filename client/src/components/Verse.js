@@ -28,7 +28,7 @@ const Verse = () => (
       <Fragment>
         {loading && (
           <span>
-            <img src={spinner} height='80px' />
+            <img src={spinner} height='80px' alt='loading' />
           </span>
         )}
         {error && <span>{`${backupVerse} ~${backupRef}`}</span>}
