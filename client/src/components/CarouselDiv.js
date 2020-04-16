@@ -3,12 +3,12 @@ import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
 import Carousel from 'react-bootstrap/Carousel'
 import styled from 'styled-components'
-import image1 from '../assets/images/0425171750.jpg'
-import image2 from '../assets/images/0711170900a.jpg'
-import image3 from '../assets/images/0713171151c.jpg'
-import image4 from '../assets/images/0928171903a.jpg'
-import image5 from '../assets/images/1111171445b.jpg'
-import image6 from '../assets/images/1010171954.jpg'
+import image1 from '../assets/images/001.jpg'
+import image2 from '../assets/images/002.jpg'
+import image3 from '../assets/images/003.jpg'
+import image4 from '../assets/images/004.jpg'
+import image5 from '../assets/images/005.jpg'
+import image6 from '../assets/images/006.jpg'
 
 const Styles = styled.div``
 
