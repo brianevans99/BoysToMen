@@ -6,7 +6,7 @@ import image5 from '../assets/images/1111171445b.jpg'
 import image6 from '../assets/images/1010171954.jpg'
 
 export default [
-  { id: 1, carouselImg: image1 },
+  { id: 1, carouselImg: image10 },
   { id: 2, carouselImg: image2 },
   { id: 3, carouselImg: image3 },
   { id: 4, carouselImg: image4 },
