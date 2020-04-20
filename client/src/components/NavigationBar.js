@@ -33,7 +33,9 @@ const NavigationBar = () => (
           <Nav.Item>
             <Nav.Link href='/'>Home</Nav.Link>
           </Nav.Item>
-          <Nav.Link href='/afterschool'>Afterschool Program</Nav.Link>
+          <Nav.Item>
+            <Nav.Link href='/afterschool'>Afterschool Program</Nav.Link>
+          </Nav.Item>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
