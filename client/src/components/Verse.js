@@ -3,9 +3,8 @@ import Request from 'axios-react'
 import spinner from '../assets/images/loadingSpinner.gif'
 import verseRef from '../data/verseRef'
 
-// const url = 'https://bible-api.com/'
 const baseUrl = 'https://api.esv.org/v3/passage/text/?q='
-
+const apikey = process.env.REACT_APP_API_KEY
 const r = Math.floor(Math.random() * verseRef.length)
 const backupVerse = 'I can do all things through Christ, who strengthens me.'
 const backupRef = 'Philippians 4:13'
@@ -16,13 +15,14 @@ const Verse = () => (
       method: 'get',
       url: `${baseUrl}${verseRef[r]}`,
       headers: {
-        Authorization: '',
+        Authorization: apikey,
       },
       params: {
         'include-passage-references': false,
         'include-verse-numbers': false,
         'include-first-verse-numbers': false,
         'include-headings': false,
+        'include-footnotes': false,
       },
     }}
   >

@@ -14,15 +14,14 @@ const Styles = styled.div`
     padding-top: 16px;
   }
   #logo {
-    max-height: 100px;
+    max-height: 200px;
   }
-
   @media only screen and (max-width: 992px) {
     * {
       text-align: center;
     }
     h2 {
-      font-size: 3em;
+      font-size: 2.4em;
     }
   }
 `
@@ -30,23 +29,29 @@ const Styles = styled.div`
 const TopCard = () => (
   <Styles>
     <Row>
-      <Col lg={5}>
-        <div className='d-flex flex-column justify-content-around'>
+      <Col lg={6}>
+        <div className='d-flex flex-row justify-content-center align-items-center'>
           <h2 className='text-uppercase'>Boys To Men</h2>
-          <p className='lead'>
-            Guiding teenage boys in DeKalb County to be men of God...
-          </p>
+          <img
+            src={tieLogo}
+            alt='Boys To Men | Atlanta Youth Project'
+            className='d-lg-none m-2'
+            height='100px'
+          />
         </div>
+        <p className='lead'>
+          Guiding teenage boys in DeKalb County to be men of God...
+        </p>
       </Col>
       <Col lg={1} className='d-flex align-items-center'>
         <img
           src={tieLogo}
           alt='Boys To Men | Atlanta Youth Project'
-          className='img-fluid'
+          className='img-fluid d-none d-lg-block py-2'
           id='logo'
         />
       </Col>
-      <Col id='verse' lg={6}>
+      <Col id='verse' lg={5}>
         <Verse />
       </Col>
     </Row>
