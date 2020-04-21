@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios-react": "^1.1.4",
     "bootstrap": "^4.4.1",
+    "config": "^3.3.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
