@@ -16,7 +16,7 @@ const Verse = () => (
       method: 'get',
       url: `${baseUrl}${verseRef[r]}`,
       headers: {
-        Authorization: '9c33d2c8646f6e5b0af69fd4f62d4230a1bbd0c4',
+        Authorization: '',
       },
       params: {
         'include-passage-references': false,
