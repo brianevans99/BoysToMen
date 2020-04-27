@@ -9,7 +9,7 @@ import Afterschool from './pages/Afterschool'
 import NotFound from './pages/NotFound'
 
 function App() {
-  console.log(process.env.API_KEY)
+  console.log(process.env.REACT_APP_API_KEY)
   return (
     <Fragment>
       <NavigationBar />
