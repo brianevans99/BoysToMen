@@ -4,7 +4,6 @@ import spinner from '../assets/images/loadingSpinner.gif'
 import verseRef from '../data/verseRef'
 
 const baseUrl = 'https://api.esv.org/v3/passage/text/?q='
-const apikey = process.env.REACT_APP_API_KEY
 const r = Math.floor(Math.random() * verseRef.length)
 const backupVerse = 'I can do all things through Christ, who strengthens me.'
 const backupRef = 'Philippians 4:13'
@@ -15,7 +14,7 @@ const Verse = () => (
       method: 'get',
       url: `${baseUrl}${verseRef[r]}`,
       headers: {
-        Authorization: apikey,
+        Authorization: process.env.REACT_APP_API_KEY,
       },
       params: {
         'include-passage-references': false,
