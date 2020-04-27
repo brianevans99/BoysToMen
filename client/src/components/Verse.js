@@ -14,7 +14,7 @@ const Verse = () => (
       method: 'get',
       url: `${baseUrl}${verseRef[r]}`,
       headers: {
-        Authorization: process.env.API_KEY || process.env.REACT_APP_API_KEY,
+        Authorization: process.env.REACT_APP_API_KEY,
       },
       params: {
         'include-passage-references': false,
