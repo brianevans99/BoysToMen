@@ -40,7 +40,7 @@ const TopCard = () => (
           />
         </div>
         <p className='lead'>
-          Guiding teenage boys in DeKalb County to be men of God...
+          Investing in our youth and making disciples of Jesus Christ.
         </p>
       </Col>
       <Col lg={1} className='d-flex align-items-center'>

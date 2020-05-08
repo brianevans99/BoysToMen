@@ -14,8 +14,8 @@ export class Home extends Component {
       <Styles>
         <Container>
           <TopCard />
-          <MiddleCard />
           <CarouselDiv />
+          <MiddleCard />
           <InfoCard />
         </Container>
       </Styles>
