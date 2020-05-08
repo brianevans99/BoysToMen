@@ -15,16 +15,33 @@ const MiddleCard = () => (
       <Col xs={true}>
         <Card>
           <Card.Body>
-            <Card.Title>
-              <h4>
-                Boys to Men was founded in 2000. Our work is with middle school
-                and high school aged boys in Central DeKalb County.
-              </h4>
+            <Card.Title className='text-justify'>
+              <h5>
+                Boys to Men began as a{' '}
+                <strong>
+                  <i>wild</i>
+                </strong>{' '}
+                basketball outreach program in a local church. It was unplanned
+                and sprung to life on its own when curious teenagers from the
+                neighborhood began showing up to play basketball and spend time
+                with friends.
+              </h5>
             </Card.Title>
-            <Card.Subtitle className='text-muted'>
+            <Card.Subtitle className='text-muted text-justify'>
               <h6>
-                We operate under the Atlanta Youth Project, a non-denominational
-                Christian youth organization.
+                The program was somewhat out of control until the volunteer
+                leader of the group brought in some structure by recruiting
+                volunteers and creating a weekly Bible study and a monthly meal
+                and gospel presentation. Chris Skinner took the reigns of the
+                group shortly after its founding and with the help of the
+                Atlanta Youth Project, turned the single outreach program into a
+                large, full-time ministry reaching young people all around the
+                community. After twenty years of basketball, flag football,
+                summer camps, in-school Bible studies, field trips, talent shows
+                and apartment community outreaches, the ministry has settled
+                into a single after school program in Douglas County, GA
+                reaching middle school boys and guiding them to become
+                responsible young men who follow Jesus Christ.
               </h6>
             </Card.Subtitle>
           </Card.Body>

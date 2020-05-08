@@ -40,9 +40,6 @@ const InfoCard = () => (
             <Card.Title>Chris Skinner</Card.Title>
             <Card.Subtitle>
               <h6 id='info' className='text-muted'>
-                770.330.2764
-              </h6>
-              <h6 id='info' className='text-muted'>
                 chris.skinner220@gmail.com
               </h6>
             </Card.Subtitle>
