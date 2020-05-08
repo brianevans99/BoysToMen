@@ -41,7 +41,7 @@ const MiddleCard = () => (
                 and apartment community outreaches, the ministry has settled
                 into a single after school program in Douglas County, GA
                 reaching middle school boys and guiding them to become
-                responsible young men who follow Jesus Christ
+                responsible young men who follow Jesus Christ.
               </h6>
             </Card.Subtitle>
           </Card.Body>
