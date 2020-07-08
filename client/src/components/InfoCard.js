@@ -27,8 +27,8 @@ const InfoCard = () => (
           <Card.Body>
             <Card.Title>Mission Statement</Card.Title>
             <Card.Text id='mission'>
-              ...To guide young men towards a greater dependence on God through
-              a personal relationship with Jesus Christ and to challenge them
+              To guide young men towards a greater dependence on God through a
+              personal relationship with Jesus Christ and to challenge them
               academically, physically and socially.
             </Card.Text>
           </Card.Body>
