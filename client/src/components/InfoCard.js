@@ -22,7 +22,7 @@ const Styles = styled.div`
 const InfoCard = () => (
   <Styles>
     <Row>
-      <Col md={6}>
+      <Col md={4}>
         <Card>
           <Card.Body>
             <Card.Title>Mission Statement</Card.Title>
@@ -34,9 +34,9 @@ const InfoCard = () => (
           </Card.Body>
         </Card>
       </Col>
-      <Col md={6}>
+      <Col md={4}>
         <Card>
-          <Card.Body>
+          <Card.Body className='d-flex flex-column justify-content-center align-items-center'>
             <Card.Title>Chris Skinner</Card.Title>
             <Card.Subtitle>
               <h6 id='info' className='text-muted'>
@@ -50,6 +50,18 @@ const InfoCard = () => (
               <p id='info' className=''>
                 Atlanta, GA 30316
               </p>
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </Col>
+      <Col md={4}>
+        <Card>
+          <Card.Body>
+            <Card.Text>
+              Our ministry is 100% funded by donors like you. If you've
+              benefited from Boys to Men and would like to give back, or you
+              like what we're doing and would like to support future work,
+              please email Chris to find out how you can help.
             </Card.Text>
           </Card.Body>
         </Card>
