@@ -6,6 +6,8 @@ import NavigationBar from './components/NavigationBar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Afterschool from './pages/Afterschool'
+import SummerCamp from './pages/SummerCamp'
+import ReleaseForm from './pages/ReleaseForm'
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route path='/afterschool' component={Afterschool} />
+          <Route path='/summer_camp_2021' component={SummerCamp} />
+          <Route path='/release_form' component={ReleaseForm} />
           <Route component={NotFound} />
         </Switch>
       </Router>

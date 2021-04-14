@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import flyer from '../assets/documents/Boys_To_Men_flier_2020-2021.jpg'
-import flyerpdf from '../assets/documents/Boys_To_Men_flier_2020-2021.pdf'
+import flier from '../assets/documents/Boys_To_Men_flier_2020-2021.jpg'
+import flierpdf from '../assets/documents/Boys_To_Men_flier_2020-2021.pdf'
 
 export class Afterschool extends Component {
   render() {
@@ -11,15 +11,15 @@ export class Afterschool extends Component {
           <Col>
             <p>
               Click{' '}
-              <a href={flyerpdf} target='_blank' rel='noopener noreferrer'>
+              <a href={flierpdf} target='_blank' rel='noopener noreferrer'>
                 here
               </a>{' '}
-              to download flyer
+              to download flier
             </p>
             <img
-              src={flyer}
+              src={flier}
               className='img-fluid'
-              alt='Afterschool Program Flyer'
+              alt='Afterschool Program flier'
             />
           </Col>
         </Row>
