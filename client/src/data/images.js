@@ -12,6 +12,13 @@ import image11 from '../assets/images/011.jpg'
 import image12 from '../assets/images/012.jpg'
 import image13 from '../assets/images/013.jpg'
 import image14 from '../assets/images/014.jpg'
+import image15 from '../assets/images/015.jpeg'
+import image16 from '../assets/images/016.jpeg'
+import image17 from '../assets/images/017.jpeg'
+import image18 from '../assets/images/018.jpeg'
+import image19 from '../assets/images/019.jpeg'
+import image20 from '../assets/images/020.jpg'
+import image21 from '../assets/images/021.jpg'
 
 export default [
   image1,
@@ -28,4 +35,11 @@ export default [
   image12,
   image13,
   image14,
+  image15,
+  image16,
+  image17,
+  image18,
+  image19,
+  image20,
+  image21,
 ]

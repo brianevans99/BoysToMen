@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path='/' component={Home} />
-          {/* <Route path='/afterschool' component={Afterschool} /> */}
+          <Route path='/afterschool' component={Afterschool} />
           <Route path='/summer_camp_2021' component={SummerCamp} />
           <Route path='/release_form' component={ReleaseForm} />
           <Route component={NotFound} />
