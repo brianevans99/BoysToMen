@@ -26,99 +26,69 @@ const CarouselDiv = () => (
       <Col xs={true}>
         <Carousel fade={true} indicators={false} controls={true}>
           <Carousel.Item>
-            <img src={images[0]} className='d-block w-100' alt='first slide' />
+            <img src={images[0]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[0]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[1]} className='d-block w-100' alt='second slide' />
+            <img src={images[1]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[1]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[2]} className='d-block w-100' alt='third slide' />
+            <img src={images[2]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[2]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[3]} className='d-block w-100' alt='fourth slide' />
+            <img src={images[3]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[3]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[4]} className='d-block w-100' alt='fifth slide' />
+            <img src={images[4]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[4]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[5]} className='d-block w-100' alt='sixth slide' />
+            <img src={images[5]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[5]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              src={images[6]}
-              className='d-block w-100'
-              alt='seventh slide'
-            />
+            <img src={images[6]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
               <h5>{verse[6]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[7]} className='d-block w-100' alt='first slide' />
+            <img src={images[7]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
-              <h5>{verse[0]}</h5>
+              <h5>{verse[7]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[8]} className='d-block w-100' alt='second slide' />
+            <img src={images[8]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
-              <h5>{verse[1]}</h5>
+              <h5>{verse[8]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img src={images[9]} className='d-block w-100' alt='third slide' />
+            <img src={images[9]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
-              <h5>{verse[2]}</h5>
+              <h5>{verse[9]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              src={images[10]}
-              className='d-block w-100'
-              alt='fourth slide'
-            />
+            <img src={images[10]} className='d-block w-100' alt='Boys to Men' />
             <Carousel.Caption>
-              <h5>{verse[3]}</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={images[11]} className='d-block w-100' alt='fifth slide' />
-            <Carousel.Caption>
-              <h5>{verse[4]}</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img src={images[12]} className='d-block w-100' alt='sixth slide' />
-            <Carousel.Caption>
-              <h5>{verse[5]}</h5>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              src={images[13]}
-              className='d-block w-100'
-              alt='seventh slide'
-            />
-            <Carousel.Caption>
-              <h5>{verse[6]}</h5>
+              <h5>{verse[10]}</h5>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
