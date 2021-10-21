@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, Navbar } from 'react-bootstrap'
+import { Nav, Navbar, Button } from 'react-bootstrap'
 import styled from 'styled-components'
 import cross from '../assets/images/cross_navbar.png'
 
@@ -41,6 +41,16 @@ const NavigationBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href='/release_form'>Release Form</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Button
+              variant='primary'
+              size='md'
+              href='https://www.paypal.com/donate?hosted_button_id=HVVFTG6XJ27US'
+              target='_blank'
+            >
+              Donate
+            </Button>
           </Nav.Item>
         </Nav>
       </Navbar.Collapse>
