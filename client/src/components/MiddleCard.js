@@ -38,10 +38,7 @@ const MiddleCard = () => (
                 large, full-time ministry reaching young people all around the
                 community. After twenty years of basketball, flag football,
                 summer camps, in-school Bible studies, field trips, talent shows
-                and apartment community outreaches, the ministry has settled
-                into offering after school programs in DeKalb County and Douglas
-                County, GA reaching middle school boys and guiding them to
-                become responsible young men who follow Jesus Christ.
+                and apartment community outreaches, the ministry has settled into offering in-school programs, after school programs and in-depth summer camps in Douglas County, reaching middle school boys and guiding them to become responsible young men who follow Jesus Christ.
               </h6>
             </Card.Subtitle>
           </Card.Body>

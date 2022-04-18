@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import flier from '../assets/documents/Summer_Camp_End_2021-min.jpg'
-import flierpdf from '../assets/documents/Summer_Camp_End_2021.pdf'
+import flier from '../assets/documents/Summer_Camp_2022-min.jpeg'
+import flierpdf from '../assets/documents/Summer_Camp_2022.pdf'
 
 export class SummerCamp extends Component {
   render() {

@@ -12,7 +12,7 @@ const Footer = () => (
   <Styles>
     <Card>
       <Card.Footer className='d-flex justify-content-center text-muted'>
-        <h5>Copyright 2021 | Boys To Men</h5>
+        <h5>Copyright 2022 | Boys To Men</h5>
       </Card.Footer>
     </Card>
   </Styles>

@@ -4,7 +4,7 @@ import styled from 'styled-components'
 
 const Styles = styled.div`
   .card-body {
-    min-height: 200px;
+    min-height: 260px;
   }
   p#info {
     margin-bottom: 0;
@@ -24,8 +24,8 @@ const InfoCard = () => (
     <Row>
       <Col md={4}>
         <Card>
-          <Card.Body>
-            <Card.Title>Mission Statement</Card.Title>
+          <Card.Body className='d-flex flex-column justify-content-center align-items-center'>
+            <Card.Title className='text-center'>Mission Statement</Card.Title>
             <Card.Text id='mission'>
               To guide young men towards a greater dependence on God through a
               personal relationship with Jesus Christ and to challenge them
@@ -56,12 +56,11 @@ const InfoCard = () => (
       </Col>
       <Col md={4}>
         <Card>
-          <Card.Body>
+          <Card.Body className='d-flex flex-column justify-content-center align-items-center'>
             <Card.Text>
               Our ministry is 100% funded by donors like you. If you've
               benefited from Boys to Men and would like to give back, or you
-              like what we're doing and would like to support future work,
-              please email Chris to find out how you can help.
+              like what we're doing and would like to support future work, please consider partnering with us.  Click on the blue DONATE button at the top to give to Boys to Men through the Youth Incorporated 501c3.
             </Card.Text>
           </Card.Body>
         </Card>
