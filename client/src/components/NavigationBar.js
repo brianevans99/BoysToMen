@@ -34,7 +34,7 @@ const NavigationBar = () => (
             <Nav.Link href='/'>Home</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link href='/summer_camp_2021'>Summer Camp</Nav.Link>
+            <Nav.Link href='/summer_camp'>Summer Camp</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link href='/afterschool'>Afterschool Program</Nav.Link>
